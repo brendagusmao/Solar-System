@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #090808;
+}
 .backgroundplanets {
   align-items: center;
   background: #090808;
@@ -13,6 +16,7 @@ html {
 }
 
 .carousel {
+  width: 100%;
   display: flex;
   flex-wrap: nowrap;
   margin-bottom: 0;
@@ -106,6 +110,7 @@ b {
   padding: 0 97px;
   top: 4px;
   width: 764px;
+  color: white;
 }
 
 .arrow {

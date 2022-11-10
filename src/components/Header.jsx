@@ -7,7 +7,7 @@ class Header extends React.Component {
       <header className="backgroundHeader">
         <h1 className="maintitle">
           In space
-          <h2 className="subtitleheader">Solar System</h2>
+          <span className="subtitleheader">Solar System</span>
         </h1>
       </header>
     );
