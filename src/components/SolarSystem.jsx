@@ -1,37 +1,46 @@
 import React from 'react';
+import AliceCarousel from 'react-alice-carousel';
 import Title from './Title';
 import PlanetCard from './PlanetCard';
 import Planets from '../data/planets';
 import '../styles/Planets.css';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 class SolarSystem extends React.Component {
   render() {
+    const responsive = {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1024: {
+        items: 3,
+      },
+    };
+
     return (
       <div data-testid="solar-system" className="backgroundplanets">
         <Title headline="Planetas" className="title" />
         <section className="carousel">
-          {/* <ScrollingCarousel
-            // show={ 3.4 }
-            // slide={ 2 }
-            // swiping
-            // leftArrow={ <div className="arrowleft">. </div> }
-            // rightArrow={ <div className="arrow">. </div> }
-            // responsive={ false }
-            // swipeOn
-            rightIcon={ <div className="arrow"> next </div> }
-            leftIcon
-          > */}
-          {Planets.map((element) => (
-            <PlanetCard
-              key={ element.name }
-              planetName={ element.name }
-              planetImage={ element.image }
-              planetSun={ element.sun }
-              planetMass={ element.mass }
-              planetDiameter={ element.diameter }
-            />
-          )) }
-          {/* </ScrollingCarousel> */}
+          <AliceCarousel
+            mouseTracking
+            keyboardNavigation
+            infinite
+            responsive={ responsive }
+          >
+            {Planets.map((element) => (
+              <PlanetCard
+                key={ element.name }
+                planetName={ element.name }
+                planetImage={ element.image }
+                planetSun={ element.sun }
+                planetMass={ element.mass }
+                planetDiameter={ element.diameter }
+              />
+            )) }
+          </AliceCarousel>
         </section>
       </div>
     );
