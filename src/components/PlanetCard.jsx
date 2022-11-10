@@ -1,20 +1,41 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Planets.css';
 
 class PlanetCard extends React.Component {
   render() {
-    const { planetName, planetImage } = this.props;
+    const { planetName, planetImage, planetSun, planetMass, planetDiameter } = this.props;
     return (
       <div
         data-testid="planet-card"
-        className={ `planet-card ${planetName
-          .toLowerCase()
-          .replace('ú', 'u')
-          .replace('ê', 'e')}` }
+        className="recomendation-card"
       >
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-        <span data-testid="planet-name" className="planet-name">
+        <span data-testid="planet-name" className="recommendationtitle">
           { planetName }
+        </span>
+        <img src={ planetImage } alt={ `Planeta ${planetName}` } className="imagecard" />
+
+        <span data-testid="planet-subtitle" className="subtitle">
+          dados do plaNeta
+          {' '}
+          { planetName }
+        </span>
+        <span data-testid="planet-description" className="description">
+          <b>Distancia do sol:</b>
+          {' '}
+          { planetSun }
+          {' '}
+          <p />
+          <b>Massa:</b>
+          {' '}
+          { planetMass }
+          {' '}
+          <p />
+          <b>Diametro:</b>
+          {' '}
+          { planetDiameter }
+          {' '}
+          <p />
         </span>
       </div>
     );
@@ -23,6 +44,9 @@ class PlanetCard extends React.Component {
 PlanetCard.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
+  planetSun: PropTypes.string.isRequired,
+  planetMass: PropTypes.string.isRequired,
+  planetDiameter: PropTypes.string.isRequired,
 };
 
 export default PlanetCard;

@@ -1,0 +1,68 @@
+.backgroundHeader {
+  align-items: left;
+  background: url(https://s3-alpha-sig.figma.com/img/ce49/7e0b/1b6abd2c8f769077ff7d3ed73263c6f1?Expires=1668988800&Signature=f5Asy0h2UMJuPEOI5FHtoYIu~B7suU059cNl~OehqGx9VFljDt0QgZpM7IkdmX4USGBt8lBbY0W1gr66sYUWhQti0W5xgjmvRn1XRIWUr1zefSX2g-x3UcRaG5bkF~C2sIJRq9GcRovXn~Re84kYZ~gLUG-Z1p5ukzsoccQw~ZgYB1SVgIbcajxZW4kYOicuhKk~Kl4gxN815uDL57cKdZXQU4t~mRR1kOdqyaSChOyoPCxpE-Z6musoCLFUw2Wk5VXWE9QyI3r-sVa-vg09ZT9n2gFHkqvS89DTdl4EYb2xkuc4mILPD~TW~QfL0TVCcaD7VeCUkgaNYLTlRjBcQQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-position: 20%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.maintitle {
+  align-content: center;
+  align-items: left;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: 'Montserrat';
+  font-size: 74px;
+  font-style: italic;
+  font-weight: 800;
+  height: auto;
+  justify-content: center;
+  line-height: 80px;
+  margin-left: 69px;
+  margin-top: 207px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 504px;
+}
+
+.subtitleheader {
+  font-family: 'Montserrat';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 169px;
+  margin-top: 1px;
+}
+
+@media screen and ( min-width : 300px ) and ( max-width : 420px ) {
+
+  .backgroundHeader {
+    background-position: 50%;
+    background-size: cover;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    height: 500px;
+    width: 100%;
+  }
+
+  .maintitle {
+    font-family: 'Montserrat';
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 33px;
+    margin-left: 9px;
+    margin-top: 200px;
+    text-shadow: 1px 1px 3px #000;
+    width: 100%;
+  }
+
+  .subtitleheader {
+    font-size: 20px;
+    margin-left: 59px;
+    margin-top: 1px;
+  }
+}

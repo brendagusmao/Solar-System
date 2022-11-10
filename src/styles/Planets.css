@@ -1,0 +1,174 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.backgroundplanets {
+  align-items: center;
+  background: #090808;
+  background-position: 20%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
+
+  /* overflow-x: scroll;
+  scroll-snap-type: x; */
+  padding-top: 4px;
+}
+
+.carousel::-webkit-scrollbar {
+  background-color: #090808; /* or add it to the track */
+  height: 5px;
+  width: 2px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: #1d1919;
+}
+
+.recomendation-card {
+  background: #0f0e0e;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  margin: 0 4% 4% 1%;
+  max-width: 416px;
+  padding: 3px;
+  text-align: center;
+  top: 0;
+}
+
+.recomendation-card img {
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 235px;
+  max-width: 416px;
+}
+
+.imagecard {
+  max-width: 100%;
+}
+
+.recommendationtitle {
+  font-family: 'NATS' , serif;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  border-bottom: 1px solid #000;
+  font-family: 'NATS';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 13px;
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
+  width: 98%;
+}
+
+b {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.title {
+  display: flex;
+  font-family: 'Montserrat Subrayada';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 10px;
+  height: 90px;
+  justify-content: center;
+  left: 344px;
+  line-height: 90px;
+  padding: 0 97px;
+  top: 4px;
+  width: 764px;
+}
+
+.arrow {
+  background: url(https://www.freeiconspng.com/thumbs/arrow-icon/arrow-icon--myiconfinder-23.png);
+  background-size: contain;
+  color: #f0f0f06b;
+  margin-top: 6px;
+  padding: 20px;
+  width: 29px;
+}
+
+.arrowleft {
+  background: url(https://www.freeiconspng.com/thumbs/arrow-icon/arrow-icon--myiconfinder-23.png);
+  background-size: contain;
+  color: transparent;
+  margin-top: 226px;
+  padding: 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 20px;
+}
+
+@font-face {
+  font-family: 'NATS';
+  src: url(./FONTS/NATS-Regular.ttf);
+}
+
+@media screen and ( min-width : 300px ) and ( max-width : 420px ) {
+
+  .backgroundplanets {
+    background-size: 100%;
+    height: 700px;
+  }
+
+  .recommendationtitle {
+    font-family: 'NATS' , serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 60px;
+    padding-top: 5px;
+    text-transform: uppercase;
+  }
+
+  .title {
+    font-size: 25px;
+    line-height: 60px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  .recomendation-card {
+    width: 100%;
+  }
+
+  .recomendation-card img {
+    height: auto;
+  }
+
+  .imagecard {
+    max-width: 100%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@400;500;800&family=Nanum+Myeongjo:wght@700&family=Playfair+Display:ital,wght@0,500;1,600&family=Poppins&display=swap') ;
