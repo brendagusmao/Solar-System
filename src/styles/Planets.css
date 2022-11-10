@@ -44,7 +44,7 @@ body {
   flex-direction: column;
   letter-spacing: 1px;
   margin: 0 4% 4% 1%;
-  max-width: 416px;
+  width: 416px;
   padding: 3px;
   text-align: center;
   top: 0;
@@ -162,8 +162,12 @@ b {
     font-size: 10px;
   }
 
+  .subtitle {
+    font-size: 15px;
+    line-height: 15px;
+  }
   .recomendation-card {
-    width: 100%;
+    width: 90%;
   }
 
   .recomendation-card img {
@@ -171,7 +175,7 @@ b {
   }
 
   .imagecard {
-    max-width: 100%;
+    max-width: 90%;
   }
 }
 

@@ -15,7 +15,7 @@ class SolarSystem extends React.Component {
       600: {
         items: 2,
       },
-      1024: {
+      1004: {
         items: 3,
       },
     };
