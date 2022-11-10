@@ -23,7 +23,7 @@
   justify-content: center;
   line-height: 80px;
   margin-left: 69px;
-  margin-top: 207px;
+  margin-top: 407px;
   text-align: left;
   text-transform: uppercase;
   width: 504px;
@@ -44,24 +44,24 @@
     background-position: 50%;
     background-size: cover;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-    height: 500px;
+    height: 600px;
     width: 100%;
   }
 
   .maintitle {
     font-family: 'Montserrat';
-    font-size: 33px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 800;
-    line-height: 33px;
+    line-height: 30px;
     margin-left: 9px;
-    margin-top: 200px;
+    margin-top: 405px;
     text-shadow: 1px 1px 3px #000;
     width: 100%;
   }
 
   .subtitleheader {
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 59px;
     margin-top: 1px;
   }
