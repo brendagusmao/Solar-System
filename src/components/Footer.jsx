@@ -14,7 +14,7 @@ class Footer extends React.Component {
           <b>trybe</b>
         </span>
         <span>
-          <a href=""> code in github</a>
+          <a href="https://github.com/brendagusmao/solarsystem"> code in github</a>
         </span>
       </footer>
     );
