@@ -16,12 +16,12 @@ class PlanetCard extends React.Component {
         <img src={ planetImage } alt={ `Planeta ${planetName}` } className="imagecard" />
 
         <span data-testid="planet-subtitle" className="subtitle">
-          dados do plaNeta
+          Dados do planeta
           {' '}
           { planetName }
         </span>
         <span data-testid="planet-description" className="description">
-          <b>Distancia do sol:</b>
+          <b>Distância do sol:</b>
           {' '}
           { planetSun }
           {' '}
@@ -31,7 +31,7 @@ class PlanetCard extends React.Component {
           { planetMass }
           {' '}
           <p />
-          <b>Diametro:</b>
+          <b>Diâmetro:</b>
           {' '}
           { planetDiameter }
           {' '}

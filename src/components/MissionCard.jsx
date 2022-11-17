@@ -9,20 +9,20 @@ class MissionCard extends React.Component {
         <span data-testid="mission-name" className="missiontitle">{name}</span>
         <div className="description">
           <span data-testid="mission-year">
-            <b>Year: </b>
+            <b>Ano: </b>
             {year}
           </span>
 
           <p />
           <span data-testid="mission-country">
-            <b>Contry: </b>
+            <b>País: </b>
             {country}
 
           </span>
 
           <p />
           <span data-testid="mission-destination">
-            <b>Destination: </b>
+            <b>Destino: </b>
             {destination}
 
           </span>
