@@ -9,7 +9,7 @@
 }
 
 .solar {
-  background: url(https://s3-alpha-sig.figma.com/img/7bbf/a1e9/a61d53b8026aa9c30b688d1b11add26b?Expires=1668988800&Signature=DjmaZVoErmIvnDMWIugh8cHCQM9iboqDgw1mDjkwV2jmjRG8SqKoucPlYGFwUSJOMcQk7Gf9QraBT5CJDp-C8JG4Fw2iDguEoOQIZKZ9q~m5WhV53TDFpuqfu1k~BS~G4TXdDg6RwKdJ3jr4jyVm3htY1RAnUgWdqgOPFoXxUAm00PTVGJYjKVl4suXXz4PO-TrEEll1YQQM5Lai4J67GSs6LiiA4H3OKeBY9yOmrh2qtz2T0lG5Y9-xWfNB2WxIZoWSZxGC4g9Yzq6A7l8-MbijKrONojN1sFGQROwJmDl78ysHvppSF98p0YWSiJcIkQzgzMXtCQLt5SslK7XE3A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background: url(../images/background/SolarSystem.png);
   background-size: cover;
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   height: 657px;
